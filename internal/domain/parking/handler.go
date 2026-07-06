@@ -3,7 +3,7 @@ package parking
 import (
 	"fmt"
 	"gotickets/internal/domain/parking/dto"
-	ErrorResponse "gotickets/internal/httresponse"
+	ErrorResponse "gotickets/internal/httpresponse"
 	"net/http"
 	"strconv"
 

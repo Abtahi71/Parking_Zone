@@ -22,7 +22,7 @@ func RegisterRoutes(e *echo.Echo,db *gorm.DB,cfg *config.Config) {
 
 	api.POST("/reserve",handler.Reserve,middleware.AuthMiddleware(jwtService))
 	api.GET("/myreservations",handler.GetMyReservations,middleware.AuthMiddleware(jwtService))
-	api.GET("/allreservations",handler.GetAllReservations)
+	admin.GET("/allreservations",handler.GetAllReservations)
 	api.DELETE("/cancel/:id",handler.CancelReservation,middleware.AuthMiddleware(jwtService))
 	
 

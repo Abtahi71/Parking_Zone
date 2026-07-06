@@ -2,7 +2,7 @@ package user
 
 import (
 	"gotickets/internal/domain/user/dto"
-	ErrorResponse "gotickets/internal/httresponse"
+	ErrorResponse "gotickets/internal/httpresponse"
 	"net/http"
 
 	"github.com/labstack/echo/v5"

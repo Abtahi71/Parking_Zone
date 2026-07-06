@@ -3,7 +3,7 @@ package reservations
 import (
 	"fmt"
 	"gotickets/internal/domain/reservations/dto"
-	ErrorResponse "gotickets/internal/httresponse"
+	ErrorResponse "gotickets/internal/httpresponse"
 	"net/http"
 	"strconv"
 
